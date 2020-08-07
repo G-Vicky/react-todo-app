@@ -1,16 +1,53 @@
 .App {
-  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
   background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
 }
 
 .todo-title {
-  color: #1f4068;
+  background-color: #322f3d;
+  color: #b52b65;
 }
+
+
+
 .card {
+  font-family: 'Roboto', sans-serif;
   max-width: 450px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.card-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+.completed {
+  opacity: 0.5;
+}
+
+.completed h3 {
+  text-decoration: line-through;
+}
+ 
+.count {
+  font-family: 'Roboto', sans-serif;
+}
+.add-todo-btn {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  border: none;
+  margin: none;
+  outline: none;
+  z-index: 100;
+}
+
+.add-todo-img {
+  border-radius: 50%;
+  cursor: pointer;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }

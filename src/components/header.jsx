@@ -8,7 +8,6 @@ class Header extends Component {
         return ( 
             <React.Fragment>
                 <h1 className="todo-title">React - Todo</h1>
-
             </React.Fragment>
          );
     }
